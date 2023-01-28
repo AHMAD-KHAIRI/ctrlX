@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ctrlX developR Challenge - Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="https://apps.boschrexroth.com/microsites/ctrlx-automation/files/ctrlx/Logos-Favicons-Icons%20%28do%20not%20delete%2C%20or%20you%20are%20get%20killed%20%3B-%29%29/Header-Logos_ctrlX_Rexroth/rexroth_Logo_web_small.gif"
+          alt="Company logo"
+          id="boschrexroth-logo"
+        />
+        <img
+          src="https://apps.boschrexroth.com/microsites/ctrlx-automation/files/ctrlx/Logos-Favicons-Icons%20%28do%20not%20delete%2C%20or%20you%20are%20get%20killed%20%3B-%29%29/Header-Logos_ctrlX_Rexroth/ctrlX_Logo_web_small.gif"
+          alt="ctrlX logo"
+          id="ctrlx-logo"
+        />
+      </div>
+      <h1>ctrlX developR Challenge</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#terms">Terms</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="home">
+        <h2>Welcome to the ctrlX developR Challenge!</h2>
+        <p>Join the challenge and showcase your skills to the world.</p>
+        <p>Win prizes worth up to RM 10,000!</p>
+        <img
+          src="https://apps.boschrexroth.com/microsites/ctrlx-automation/files/ctrlx/ctrlX%20developR/ctrlX%20developR%20challenge/DC-AE_ctrlX_developR-challenge_202103_RGB.jpg"
+          alt="ctrlX developR Challenge"
+          width="600"
+          height="116"
+        />
+      </section>
+      <section id="about">
+        <h2>About the Challenge</h2>
+        <p>
+          The ctrlX developR Challenge is a hackathon organized by Bosch
+          Rexroth. The goal of the challenge is to develop innovative solutions
+          using the ctrlX automation platform.
+        </p>
+      </section>
+      <section id="register">
+        <h2>Registration</h2>
+        <form
+          id="registration-form"
+          method="POST"
+          enctype="multipart/form-data"
+          action="http://localhost:5000/register"
+        >
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="team">Team Name:</label>
+            <input type="text" id="team" name="team" required />
+          </div>
+          <div class="form-group">
+            <label for="members">Team Members:</label>
+            <textarea id="members" name="members" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="idea">Project Idea:</label>
+            <textarea id="idea" name="idea" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="video">Project video:</label>
+            <input type="file" id="video" name="video" accept="video/*" />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+          <li>
+            <h3>What is the ctrlX developR Challenge?</h3>
+            <p>
+              The ctrlX developR Challenge is a competition for students and
+              young professionals to develop innovative automation solutions
+              using the ctrlX platform.
+            </p>
+          </li>
+          <li>
+            <h3>Who can participate in the ctrlX developR Challenge?</h3>
+            <p>
+              The competition is open to students and young professionals aged
+              18 to 35.
+            </p>
+          </li>
+          <li>
+            <h3>What is the prize for the winning team?</h3>
+            <p>
+              The winning team will receive a prize of RM 10,000 and the
+              opportunity to showcase their project at an international trade
+              fair.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="terms">
+        <h2>Terms and Conditions</h2>
+        <ol type="1">
+          <li>
+            <h3>Eligibility:</h3>
+            <p>
+              The hackathon is open to all students and young professionals who
+              are legally resident in Malaysia.
+            </p>
+          </li>
+          <li>
+            <h3>Team Size:</h3>
+            <p>Teams can consist of a maximum of 5 members.</p>
+          </li>
+          <li>
+            <h3>Intellectual Property:</h3>
+            <p>
+              By submitting an entry to the hackathon, teams retain ownership of
+              the intellectual property of their submission. However, teams
+              grant Bosch Rexroth and its affiliates a non-exclusive,
+              irrevocable, transferable, sub-licensable, and royalty-free
+              license to use, reproduce, display, perform, and distribute the
+              submission for any purpose.
+            </p>
+          </li>
+          <li>
+            <h3>Confidentiality:</h3>
+            <p>
+              Teams must keep all information about the hackathon and the
+              submissions confidential, including but not limited to the names
+              and identities of the team members, the idea and concept behind
+              the submission, and any related documentation or materials.
+            </p>
+          </li>
+          <li>
+            <h3>Prize:</h3>
+            <p>
+              The winning team will be awarded a prize of RM 10,000. The prize
+              will be paid out to the team leader, who is responsible for
+              distributing the prize among the team members.
+            </p>
+          </li>
+          <li>
+            <h3>Liability:</h3>
+            <p>
+              Bosch Rexroth and its affiliates are not liable for any damages,
+              losses, or expenses incurred by teams or team members in
+              connection with the hackathon, including but not limited to travel
+              expenses, accommodation expenses, or any other costs.
+            </p>
+          </li>
+          <li>
+            <h3>Data Protection:</h3>
+            <p>
+              Teams agree to the collection, processing, and use of their
+              personal data by Bosch Rexroth and its affiliates for the purpose
+              of conducting the hackathon and for marketing purposes.
+            </p>
+          </li>
+          <li>
+            <h3>Changes to the Terms and Conditions:</h3>
+            <p>
+              Bosch Rexroth reserves the right to change the terms and
+              conditions of the hackathon at any time without prior notice.
+            </p>
+          </li>
+          <li>
+            <h3>Governing Law:</h3>
+            <p>
+              The hackathon and these terms and conditions shall be governed by
+              and construed in accordance with the laws of Malaysia, without
+              giving effect to any principles of conflicts of law.
+            </p>
+          </li>
+          <li>
+            <h3>Final Statement:</h3>
+            <p>
+              The decisions of the judges are final and binding on all aspects
+              of the hackathon.
+            </p>
+          </li>
+        </ol>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
